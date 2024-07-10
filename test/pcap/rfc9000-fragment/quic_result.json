@@ -1,0 +1,31 @@
+[{
+		"Tuple4":	"192.168.8.106.57644>142.250.185.36.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"www.google.com",
+		"UA":	"Chrome/94.0.4606.81 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"192.168.8.106.60687>142.250.185.36.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"www.google.com",
+		"UA":	"Chrome/94.0.4606.81 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_2"
+	}, {
+		"Tuple4":	"192.168.8.106.53622>142.250.185.36.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"www.google.com",
+		"UA":	"Chrome/94.0.4606.81 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_3"
+	}, {
+		"Tuple4":	"192.168.8.106.53736>142.250.185.36.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"www.google.com",
+		"UA":	"Chrome/94.0.4606.81 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_4"
+	}, {
+		"Tuple4":	"192.168.8.106.63821>142.250.185.36.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"www.google.com",
+		"UA":	"Chrome/94.0.4606.81 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_5"
+}]

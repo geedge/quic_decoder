@@ -1,0 +1,187 @@
+[
+	{
+		"Tuple4": "185.57.75.21.44739>173.194.73.132.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "yt3.ggpht.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; Win64; x64",
+		"name": "QUIC_RESULT_1"
+	},
+	{
+		"Tuple4": "212.154.234.46.62716>74.125.131.156.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "stats.g.doubleclick.net",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; Win64; x64",
+		"name": "QUIC_RESULT_2"
+	},
+	{
+		"Tuple4": "2.135.246.186.56653>173.194.113.166.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "www.google-analytics.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1",
+		"name": "QUIC_RESULT_3"
+	},
+	{
+		"Tuple4": "85.117.110.235.48996>74.125.131.211.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "proxy.googlezip.net",
+		"UA": "dev Chrome/73.0.3667.2 Android 4.4.2; SM-G900F",
+		"name": "QUIC_RESULT_4"
+	},
+	{
+		"Tuple4": "85.117.112.180.21665>173.194.113.153.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "adservice.google.kz",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.2; WOW64",
+		"name": "QUIC_RESULT_5"
+	},
+	{
+		"Tuple4": "85.117.112.180.61808>64.233.165.132.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "yt3.ggpht.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.2; WOW64",
+		"name": "QUIC_RESULT_6"
+	},
+	{
+		"Tuple4": "85.117.114.90.16060>64.233.165.94.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "www.google.kz",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; Win64; x64",
+		"SNI": "www.google.kz",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; Win64; x64",
+		"name": "QUIC_RESULT_7"
+	},
+	{
+		"Tuple4": "85.117.117.190.11567>64.233.165.94.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "www.google.kz",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.3; Win64; x64",
+		"name": "QUIC_RESULT_8"
+	},
+	{
+		"Tuple4": "85.117.117.190.48098>173.194.221.95.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "safebrowsing.googleapis.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.3; Win64; x64",
+		"name": "QUIC_RESULT_9"
+	},
+	{
+		"Tuple4": "85.117.119.57.4009>64.233.162.155.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "stats.g.doubleclick.net",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; Win64; x64",
+		"name": "QUIC_RESULT_10"
+	},
+	{
+		"Tuple4": "85.117.126.11.11719>64.233.165.138.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "play.google.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_11"
+	},
+	{
+		"Tuple4": "85.117.126.11.29355>173.194.220.94.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "beacons3.gvt2.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_12"
+	},
+	{
+		"Tuple4": "85.117.126.11.45264>74.125.205.102.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "clients2.google.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_13"
+	},
+	{
+		"Tuple4": "89.218.169.150.55676>173.194.32.238.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "www.google-analytics.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; Win64; x64",
+		"name": "QUIC_RESULT_14"
+	},
+	{
+		"Tuple4": "89.218.79.162.64017>173.194.73.95.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "ajax.googleapis.com",
+		"UA": "canary Chrome/73.0.3671.3 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_15"
+	},
+	{
+		"Tuple4": "90.143.176.186.54278>173.194.32.194.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "clients4.google.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; Win64; x64",
+		"name": "QUIC_RESULT_16"
+	},
+	{
+		"Tuple4": "90.143.177.184.59077>74.125.232.247.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "www.gstatic.com",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; WOW64",
+		"name": "QUIC_RESULT_17"
+	},
+	{
+		"Tuple4": "90.143.177.184.5951>173.194.44.26.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "googleads.g.doubleclick.net",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 6.1; WOW64",
+		"name": "QUIC_RESULT_18"
+	},
+	{
+		"Tuple4": "90.143.178.243.51779>64.233.164.94.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "update.googleapis.com",
+		"UA": "canary Chrome/73.0.3672.0 Windows NT 10.0; Win64; x64",
+		"SNI": "update.googleapis.com",
+		"UA": "canary Chrome/73.0.3672.0 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_19"
+	},
+	{
+		"Tuple4": "90.143.181.226.34777>74.125.232.237.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "googleads.g.doubleclick.net",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 10.0; Win64; x64",
+		"SNI": "googleads.g.doubleclick.net",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_20"
+	},
+	{
+		"Tuple4": "90.143.181.245.31397>74.125.232.191.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "www.google.kz",
+		"UA": "dev Chrome/73.0.3664.3 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_21"
+	},
+	{
+		"Tuple4": "90.143.187.227.10862>64.233.165.139.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "www.google-analytics.com",
+		"UA": "canary Chrome/73.0.3672.0 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_22"
+	},
+	{
+		"Tuple4": "90.143.187.227.10863>64.233.165.139.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "www.google-analytics.com",
+		"UA": "canary Chrome/73.0.3672.0 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_23"
+	},
+	{
+		"Tuple4": "90.143.187.227.4586>173.194.44.58.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "googleads.g.doubleclick.net",
+		"UA": "canary Chrome/73.0.3672.0 Windows NT 10.0; Win64; x64",
+		"SNI": "googleads.g.doubleclick.net",
+		"UA": "canary Chrome/73.0.3672.0 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_24"
+	},
+	{
+		"Tuple4": "90.143.188.64.2542>64.233.165.94.443",
+		"VERSION": "Google QUIC 44",
+		"SNI": "beacons5.gvt2.com",
+		"UA": "dev Chrome/73.0.3667.2 Android 6.0.1; SM-A700FD",
+		"SNI": "beacons5.gvt2.com",
+		"UA": "dev Chrome/73.0.3667.2 Android 6.0.1; SM-A700FD",
+		"name": "QUIC_RESULT_25"
+	}
+]

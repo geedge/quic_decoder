@@ -1,0 +1,26 @@
+[
+    {
+        "Tuple4": "2607:5d00:2:2::38:2.53977>2404:6800:4005:807::2004.443",
+        "VERSION": "IETF QUIC RFC9000",
+        "SNI": "www.google.com",
+        "name": "QUIC_RESULT_1"
+    },
+    {
+        "Tuple4": "2607:5d00:2:2::38:2.50835>2404:6800:4005:80d::2003.443",
+        "VERSION": "IETF QUIC RFC9000",
+        "SNI": "www.google.com.hk",
+        "name": "QUIC_RESULT_2"
+    },
+    {
+        "Tuple4": "192.168.64.25.61166>157.240.245.35.443",
+        "VERSION": "IETF QUIC RFC9000",
+        "SNI": "www.facebook.com",
+        "name": "QUIC_RESULT_3"
+    },
+    {
+        "Tuple4": "2607:5d00:2:2::38:2.54817>2404:6800:4005:80c::200a.443",
+        "VERSION": "IETF QUIC RFC9000",
+        "SNI": "optimizationguide-pa.googleapis.com",
+        "name": "QUIC_RESULT_4"
+    }
+]

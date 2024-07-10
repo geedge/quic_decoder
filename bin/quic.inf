@@ -1,0 +1,9 @@
+[[plugin]]
+path = "./stellar_plugin/quic_decoder/quic_decoder.so"
+init = "QUIC_ONLOAD"
+exit = "QUIC_UNLOAD"
+
+[[plugin]]
+path = "./stellar_plugin/quic_decoder/quic_decoder_test_plug.so"
+init = "QUIC_TEST_PLUG_INIT"
+exit = "QUIC_TEST_PLUG_DESTROY"

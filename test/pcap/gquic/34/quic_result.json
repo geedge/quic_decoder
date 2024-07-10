@@ -1,0 +1,9 @@
+[{
+		"Tuple4":	"85.117.125.8.21243>173.194.73.102.443",
+		"VERSION":	"Google QUIC 34",
+		"SNI":	"redirector.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/54.0.2823.2",
+		"SNI":	"redirector.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/54.0.2823.2",
+		"name":	"QUIC_RESULT_1"
+}]

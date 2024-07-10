@@ -1,0 +1,18 @@
+[{
+		"Tuple4":	"85.117.122.194.32370>173.194.220.138.443",
+		"VERSION":	"Google QUIC 35",
+		"SNI":	"redirector.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/56.0.2900.3",
+		"SNI":	"redirector.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/56.0.2900.3",
+		"SNI":	"redirector.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/56.0.2900.3",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"85.117.122.21.21396>173.194.220.138.443",
+		"VERSION":	"Google QUIC 35",
+		"SNI":	"redirector.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/59.0.3068.4",
+		"name":	"QUIC_RESULT_2"
+}]
+

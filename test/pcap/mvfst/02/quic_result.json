@@ -1,0 +1,51 @@
+[{
+		"Tuple4":	"192.168.137.141.50006>31.13.77.17.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"graph.facebook.com",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"192.168.137.141.63314>31.13.77.10.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"gateway.facebook.com",
+		"name":	"QUIC_RESULT_2"
+	}, {
+		"Tuple4":	"192.168.137.141.60630>157.240.7.26.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"scontent-sin6-1.xx.fbcdn.net",
+		"name":	"QUIC_RESULT_3"
+	}, {
+		"Tuple4":	"192.168.137.141.50293>157.240.15.13.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"scontent-sin6-3.xx.fbcdn.net",
+		"name":	"QUIC_RESULT_4"
+	}, {
+		"Tuple4":	"192.168.137.141.63677>157.240.13.19.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"scontent-sin6-2.xx.fbcdn.net",
+		"name":	"QUIC_RESULT_5"
+	}, {
+		"Tuple4":	"192.168.137.141.52300>157.240.235.1.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"scontent-sin6-4.xx.fbcdn.net",
+		"name":	"QUIC_RESULT_6"
+	}, {
+		"Tuple4":	"192.168.137.141.63951>157.240.7.21.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"video-sin6-1.xx.fbcdn.net",
+		"name":	"QUIC_RESULT_7"
+	}, {
+		"Tuple4":	"192.168.137.141.52981>157.240.235.2.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"video-sin6-4.xx.fbcdn.net",
+		"name":	"QUIC_RESULT_8"
+	}, {
+		"Tuple4":	"192.168.137.141.53686>157.240.15.20.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"video-sin6-3.xx.fbcdn.net",
+		"name":	"QUIC_RESULT_9"
+	}, {
+		"Tuple4":	"192.168.137.141.55335>157.240.13.15.443",
+		"VERSION":	"Facebook mvfst 02",
+		"SNI":	"video-sin6-2.xx.fbcdn.net",
+		"name":	"QUIC_RESULT_10"
+}]

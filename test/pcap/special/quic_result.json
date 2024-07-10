@@ -1,0 +1,33 @@
+[
+	{
+		"Tuple4": "10.83.31.23.37645>142.250.180.42.443",
+		"VERSION": "IETF QUIC 29",
+		"SNI": "play.googleapis.com",
+		"UA": "com.google.android.gms Cronet/92.0.4515.131",
+		"SNI": "play.googleapis.com",
+		"UA": "com.google.android.gms Cronet/92.0.4515.131",
+		"SNI": "play.googleapis.com",
+		"UA": "com.google.android.gms Cronet/92.0.4515.131",
+		"SNI": "play.googleapis.com",
+		"UA": "com.google.android.gms Cronet/92.0.4515.131",
+		"name": "QUIC_RESULT_1"
+	},
+	{
+		"Tuple4": "192.168.1.6.61269>142.250.180.42.443",
+		"VERSION": "IETF QUIC RFC9000",
+		"SNI": "content-autofill.googleapis.com",
+		"UA": "Chrome/94.0.4606.81 Windows NT 10.0; Win64; x64",
+		"SNI": "content-autofill.googleapis.com",
+		"UA": "Chrome/94.0.4606.81 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_2"
+	},
+	{
+		"Tuple4": "10.129.24.130.52558>213.55.110.12.443",
+		"VERSION": "Google QUIC 43",
+		"SNI": "r1---sn-xuj-5qqz.googlevideo.com",
+		"UA": "com.google.android.youtube Cronet/80.0.3970.3",
+		"SNI": "r1---sn-xuj-5qqz.googlevideo.com",
+		"UA": "com.google.android.youtube Cronet/80.0.3970.3",
+		"name": "QUIC_RESULT_3"
+	}
+]

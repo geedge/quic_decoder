@@ -1,0 +1,12 @@
+[{
+		"Tuple4":	"192.168.60.32.59699>64.233.164.84.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"accounts.google.com",
+		"UA":	"Chrome/92.0.4515.159 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"124.88.191.113.39716>114.250.66.33.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"safebrowsing.googleapis.com",
+		"name":	"QUIC_RESULT_2"
+}]

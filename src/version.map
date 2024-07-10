@@ -1,0 +1,10 @@
+VERS_3.0{
+global: 
+	extern "C" {	
+		QUIC_ONLOAD;
+		QUIC_UNLOAD;
+		quic_version_int2string;
+		quic_message_*;
+	};
+  local: *;
+};
