@@ -1,0 +1,175 @@
+[{
+		"Tuple4":	"90.143.185.235.17239>173.194.44.6.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"www.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/60.0.3112.12",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"10.32.121.249.33765>64.233.161.95.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"instantmessaging-pa.googleapis.com",
+		"UA":	"com.google.android.apps.tachyon Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_2"
+	}, {
+		"Tuple4":	"10.35.127.134.42356>64.233.165.139.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/60.0.3108.3",
+		"name":	"QUIC_RESULT_3"
+	}, {
+		"Tuple4":	"185.57.74.232.43276>173.194.44.78.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"www.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_4"
+	}, {
+		"Tuple4":	"185.57.74.32.52134>74.125.232.249.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"googleads.g.doubleclick.net",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_5"
+	}, {
+		"Tuple4":	"195.162.27.132.31404>217.76.77.81.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"r6---sn-5auxa-unxe.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_6"
+	}, {
+		"Tuple4":	"195.162.27.132.31405>217.76.77.81.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"r6---sn-5auxa-unxe.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_7"
+	}, {
+		"Tuple4":	"85.117.112.160.21969>64.233.165.95.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"www.googleapis.com",
+		"UA":	"com.google.android.youtube Cronet/60.0.3112.12",
+		"name":	"QUIC_RESULT_8"
+	}, {
+		"Tuple4":	"85.117.113.62.29644>173.194.73.95.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"youtubei.googleapis.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_9"
+	}, {
+		"Tuple4":	"85.117.116.192.18140>173.194.44.1.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"www.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_10"
+	}, {
+		"Tuple4":	"85.117.116.195.38495>173.194.222.132.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"yt3.ggpht.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_11"
+	}, {
+		"Tuple4":	"85.117.123.242.33040>64.233.162.95.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"www.googleapis.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_12"
+	}, {
+		"Tuple4":	"85.117.126.141.34209>64.233.164.132.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"yt3.ggpht.com",
+		"UA":	"com.google.android.youtube Cronet/60.0.3112.12",
+		"SNI":	"yt3.ggpht.com",
+		"UA":	"com.google.android.youtube Cronet/60.0.3112.12",
+		"SNI":	"yt3.ggpht.com",
+		"UA":	"com.google.android.youtube Cronet/60.0.3112.12",
+		"name":	"QUIC_RESULT_13"
+	}, {
+		"Tuple4":	"85.117.126.166.46412>173.194.44.4.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"www.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"SNI":	"www.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_14"
+	}, {
+		"Tuple4":	"85.117.126.63.9977>64.233.165.113.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3136.4",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3136.4",
+		"name":	"QUIC_RESULT_15"
+	}, {
+		"Tuple4":	"85.117.126.68.44666>173.194.44.41.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3124.3",
+		"name":	"QUIC_RESULT_16"
+	}, {
+		"Tuple4":	"90.143.176.79.38351>108.177.14.119.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"i.ytimg.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_17"
+	}, {
+		"Tuple4":	"90.143.176.91.52171>173.194.222.101.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3142.0",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3142.0",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_18"
+	}, {
+		"Tuple4":	"90.143.178.25.15835>173.194.73.119.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"i.ytimg.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3129.3",
+		"name":	"QUIC_RESULT_19"
+	}, {
+		"Tuple4":	"90.143.179.24.35032>173.194.32.196.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3124.3",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3124.3",
+		"name":	"QUIC_RESULT_20"
+	}, {
+		"Tuple4":	"90.143.180.185.57766>173.194.32.196.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"clients4.google.com",
+		"UA":	"com.google.android.apps.maps Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_21"
+	}, {
+		"Tuple4":	"90.143.183.75.19770>74.125.232.167.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"www.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_22"
+	}, {
+		"Tuple4":	"90.143.184.225.24092>173.194.222.95.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"youtubei.googleapis.com",
+		"UA":	"com.google.android.youtube Cronet/60.0.3112.12",
+		"name":	"QUIC_RESULT_23"
+	}, {
+		"Tuple4":	"90.143.186.194.32570>173.194.44.1.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"www.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_24"
+	}, {
+		"Tuple4":	"90.143.188.47.22565>64.233.162.95.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"youtubei.googleapis.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"SNI":	"youtubei.googleapis.com",
+		"UA":	"com.google.android.youtube Cronet/61.0.3142.0",
+		"name":	"QUIC_RESULT_25"
+	}, {
+		"Tuple4":	"90.143.190.56.19723>108.177.14.102.443",
+		"VERSION":	"Google QUIC 37",
+		"SNI":	"redirector.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/60.0.3112.12",
+		"SNI":	"redirector.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/60.0.3112.12",
+		"name":	"QUIC_RESULT_26"
+}]

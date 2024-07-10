@@ -1,0 +1,11 @@
+[
+	{
+		"Tuple4": "172.16.30.79.65003>203.208.50.45.443",
+		"VERSION": "Google QUIC 46",
+		"SNI": "pagead2.googlesyndication.com",
+		"UA": "Chrome/79.0.3945.79 Windows NT 6.1; Win64; x64",
+		"SNI": "pagead2.googlesyndication.com",
+		"UA": "Chrome/79.0.3945.79 Windows NT 6.1; Win64; x64",
+		"name": "QUIC_RESULT_1"
+	}
+]

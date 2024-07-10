@@ -1,0 +1,173 @@
+variables:
+  GIT_STRATEGY: "clone"
+  BUILD_IMAGE_CENTOS8: "git.mesalab.cn:7443/mesa_platform/build-env:rockylinux"
+  BUILD_PADDING_PREFIX: /tmp/padding_for_CPACK_RPM_BUILD_SOURCE_DIRS_PREFIX_PREFIX_PREFIX_PREFIX_PREFIX_PREFIX/
+  INSTALL_DEPENDENCY_PLATFORM:  sapp-devel libasan systemd-devel systemd libnsl glib2-devel libMESA_htable  libMESA_jump_layer libbreakpad_mini libuuid libMESA_field_stat2 libfieldstat3 libfieldstat4 libfieldstat4-devel
+  INSTALL_DEPENDENCY_FRAMEWORK:  libMESA_handle_logger-devel libcjson-devel libcjson framework_env 
+                                 libMESA_prof_load-devel libMESA_handle_logger 
+                                 stellar-on-sapp-devel stellar-on-sapp
+                                 
+  INSTALL_PREFIX: "/opt/tsg/"
+  RPM_REPO_PREFIX: stellar
+
+stages:
+- build
+- test
+- package
+
+.build_before_script:
+  before_script:
+  - mkdir -p $BUILD_PADDING_PREFIX/$CI_PROJECT_NAMESPACE/
+  - ln -s $CI_PROJECT_DIR $BUILD_PADDING_PREFIX/$CI_PROJECT_PATH
+  - cd $BUILD_PADDING_PREFIX/$CI_PROJECT_PATH
+  - chmod +x ./ci/travis.sh
+  - yum makecache
+  - yum install -y elfutils-libelf-devel
+
+.build_by_travis_for_centos8:
+  stage: build
+  image: $BUILD_IMAGE_CENTOS8
+  extends: .build_before_script
+  script:
+    - dnf --enablerepo=powertools install -y libmnl-devel
+    - dnf --enablerepo=powertools install -y libnfnetlink-devel
+    - ./ci/travis.sh
+  tags:
+    - share
+
+branch_build_debug_for_centos8:
+  stage: build
+  extends: .build_by_travis_for_centos8
+  variables:
+    BUILD_TYPE: Debug
+  except:
+    - /^develop.*$/i
+    - /^master.*$/i
+    - tags
+
+branch_build_release_for_centos8:
+  stage: build
+  variables:
+    BUILD_TYPE: RelWithDebInfo
+  extends: .build_by_travis_for_centos8
+  except:
+    - /^develop.*$/i
+    - /^master.*$/i
+    - tags
+
+develop_build_debug_for_centos8:
+  stage: build
+  extends: .build_by_travis_for_centos8
+  variables:
+    BUILD_TYPE: Debug
+    PACKAGE: 1
+    UPLOAD_RPM: 1
+    ASAN_OPTION: ADDRESS
+    TESTING_VERSION_BUILD: 1
+    PULP3_REPO_NAME: $RPM_REPO_PREFIX-testing-x86_64.el8
+    PULP3_DIST_NAME: $RPM_REPO_PREFIX-testing-x86_64.el8
+  artifacts:
+    name: "quic_decoder-$CI_COMMIT_REF_NAME-debug"
+    paths:
+      - build/*.rpm
+  only:
+    - /^develop.*$/i
+    - /^master.*$/i
+
+develop_build_release_for_centos8:
+  stage: build
+  extends: .build_by_travis_for_centos8
+  variables:
+    BUILD_TYPE: RelWithDebInfo
+    PACKAGE: 1
+    UPLOAD_RPM: 1
+    TESTING_VERSION_BUILD: 1
+    PULP3_REPO_NAME: $RPM_REPO_PREFIX-testing-x86_64.el8
+    PULP3_DIST_NAME: $RPM_REPO_PREFIX-testing-x86_64.el8
+  artifacts:
+    name: "quic_decoder-$CI_COMMIT_REF_NAME-release"
+    paths:
+      - build/*.rpm
+  only:
+    - /^develop.*$/i
+    - /^master.*$/i
+
+release_build_debug_for_centos8:
+  stage: package
+  variables:
+    BUILD_TYPE: Debug
+    PACKAGE: 1
+    UPLOAD_RPM: 1
+    ASAN_OPTION: ADDRESS
+    PULP3_REPO_NAME: $RPM_REPO_PREFIX-stable-x86_64.el8
+    PULP3_DIST_NAME: $RPM_REPO_PREFIX-stable-x86_64.el8
+  extends: .build_by_travis_for_centos8
+  artifacts:
+    name: "quic_decoder-$CI_COMMIT_REF_NAME-debug"
+    paths:
+      - build/*.rpm
+  only:
+    - tags
+
+release_build_release_for_centos8:
+  stage: package
+  variables:
+    BUILD_TYPE: RelWithDebInfo
+    PACKAGE: 1
+    UPLOAD_RPM: 1
+    UPLOAD_SYMBOL_FILES: 1
+    SYMBOL_TARGET: quic_decoder
+    PULP3_REPO_NAME: $RPM_REPO_PREFIX-stable-x86_64.el8
+    PULP3_DIST_NAME: $RPM_REPO_PREFIX-stable-x86_64.el8
+  extends: .build_by_travis_for_centos8
+  artifacts:
+    name: "quic_decoder-$CI_COMMIT_REF_NAME-release"
+    paths:
+      - build/*.rpm
+  only:
+    - tags
+
+###############################################################################
+# test 
+###############################################################################
+
+.install_rpm_package: &install_rpm_package
+    - rpm -e sapp || true 
+    - rpm -e sapp-devel || true 
+    - rpm -e stellar-on-sapp || true
+    - rpm -e stellar-on-sapp-devel || true
+    - rpm -ivh /tmp/sapp.x86_64.rpm --prefix=${INSTALL_PREFIX}/sapp --force --nodeps
+    - rpm -ivh /tmp/sapp-devel.x86_64.rpm --prefix=${INSTALL_PREFIX}/sapp --force --nodeps
+    - rpm -ivh /tmp/stellar-on-sapp.x86_64.rpm --prefix=${INSTALL_PREFIX} --force --nodeps 
+    - rpm -qa | grep sapp
+    - rpm -qa | grep stellar-on-sapp
+    - ls -l /opt/MESA/lib && echo "/opt/MESA/lib" >> /etc/ld.so.conf
+
+
+history_version_test:
+  stage: test
+  extends: .build_by_travis_for_centos8
+  script:
+    - yum makecache
+    - ./ci/travis.sh
+    - cp -f ./support/stellar-on-sapp*.rpm /tmp/stellar-on-sapp.x86_64.rpm
+    - cp -f ./support/sapp-devel*.rpm /tmp/sapp-devel.x86_64.rpm
+    - cp -f ./support/sapp-4*.rpm /tmp/sapp.x86_64.rpm
+    - *install_rpm_package  
+    - cd build
+    - ctest3 --verbose
+
+latest_version_test:
+  stage: test
+  extends: .build_by_travis_for_centos8
+  script:
+    - yum makecache
+    - ./ci/travis.sh
+    - rm -f stellar-on-sapp*.rpm sapp*.rpm
+    - yumdownloader stellar-on-sapp sapp-devel sapp
+    - cp -f stellar-on-sapp*.rpm /tmp/stellar-on-sapp.x86_64.rpm
+    - cp -f sapp-devel*.rpm /tmp/sapp-devel.x86_64.rpm
+    - cp -f sapp-4*.rpm /tmp/sapp.x86_64.rpm
+    - *install_rpm_package
+    - cd build
+    - ctest3 --verbose    

@@ -1,0 +1,94 @@
+[{
+		"Tuple4":	"10.56.160.76.44417>216.58.209.132.443",
+		"SNI":	"www.google.com",
+		"UA":	"com.google.android.googlequicksearchbox Cronet/96.0.4664.17",
+		"VERSION":	"IETF QUIC RFC9000",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"10.56.160.76.47427>213.55.110.12.443",
+		"SNI":	"r1---sn-xuj-5qqz.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"Google QUIC 43",
+		"name":	"QUIC_RESULT_2"
+	}, {
+		"Tuple4":	"10.56.160.76.39996>142.250.185.33.443",
+		"SNI":	"yt3.ggpht.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"IETF QUIC RFC9000",
+		"name":	"QUIC_RESULT_3"
+	}, {
+		"Tuple4":	"10.56.160.76.48527>216.58.209.130.443",
+		"SNI":	"www.googleadservices.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"IETF QUIC RFC9000",
+		"name":	"QUIC_RESULT_4"
+	}, {
+		"Tuple4":	"10.56.160.76.43569>197.156.74.146.443",
+		"SNI":	"r7---sn-xuj-5qqs.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"Google QUIC 43",
+		"name":	"QUIC_RESULT_5"
+	}, {
+		"Tuple4":	"10.56.160.76.52114>197.156.74.147.443",
+		"SNI":	"r8---sn-xuj-5qqs.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"Google QUIC 43",
+		"name":	"QUIC_RESULT_6"
+	}, {
+		"Tuple4":	"10.56.160.76.59023>213.55.110.13.443",
+		"SNI":	"r2---sn-xuj-5qqz.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"Google QUIC 43",
+		"name":	"QUIC_RESULT_7"
+	}, {
+		"Tuple4":	"10.56.160.76.46224>197.156.74.140.443",
+		"SNI":	"r1---sn-xuj-5qqs.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"Google QUIC 43",
+		"name":	"QUIC_RESULT_8"
+	}, {
+		"Tuple4":	"10.56.160.76.54334>197.156.74.145.443",
+		"SNI":	"r6---sn-xuj-5qqs.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"Google QUIC 43",
+		"name":	"QUIC_RESULT_9"
+	}, {
+		"Tuple4":	"10.56.160.76.41069>142.250.180.42.443",
+		"SNI":	"youtubei.googleapis.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"IETF QUIC RFC9000",
+		"name":	"QUIC_RESULT_10"
+	}, {
+		"Tuple4":	"10.56.160.76.48756>213.55.110.14.443",
+		"SNI":	"r3---sn-xuj-5qqz.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"Google QUIC 43",
+		"name":	"QUIC_RESULT_11"
+	}, {
+		"Tuple4":	"10.56.160.76.51113>142.250.180.54.443",
+		"SNI":	"i.ytimg.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"IETF QUIC RFC9000",
+		"name":	"QUIC_RESULT_12"
+	}, {
+		"Tuple4":	"10.56.160.76.38866>197.156.74.141.443",
+		"SNI":	"r2---sn-xuj-5qqs.googlevideo.com",
+		"UA":	"com.google.android.youtube Cronet/96.0.4655.4",
+		"VERSION":	"Google QUIC 43",
+		"name":	"QUIC_RESULT_13"
+	}, {
+		"Tuple4":	"10.56.160.76.46131>196.188.31.18.443",
+		"SNI":	"video.fadd1-1.fna.fbcdn.net",
+		"VERSION":	"Facebook mvfst 02",
+		"name":	"QUIC_RESULT_14"
+	}, {
+		"Tuple4":	"10.56.160.76.40267>102.132.96.18.443",
+		"SNI":	"graph.facebook.com",
+		"VERSION":	"Facebook mvfst 02",
+		"name":	"QUIC_RESULT_15"
+	}, {
+		"Tuple4":	"10.56.160.76.46761>196.188.31.17.443",
+		"SNI":	"scontent.fadd1-1.fna.fbcdn.net",
+		"VERSION":	"Facebook mvfst 02",
+		"name":	"QUIC_RESULT_16"
+}]

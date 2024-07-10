@@ -1,0 +1,8 @@
+[
+	{
+		"Tuple4": "112.43.145.231.18699>112.46.25.216.443",
+		"VERSION": "Google QUIC 43",
+		"SNI": "client.weixin.qq.com",
+		"name": "QUIC_RESULT_1"
+	}
+]

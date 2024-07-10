@@ -1,0 +1,19 @@
+[{
+		"Tuple4":	"172.20.9.135.65045>64.233.162.119.443",
+		"VERSION":	"Google QUIC 50",
+		"SNI":	"i.ytimg.com",
+		"UA":	"Chrome/86.0.4240.75 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"172.20.9.135.61564>173.194.221.103.443",
+		"VERSION":	"Google QUIC 50",
+		"SNI":	"www.google.com",
+		"UA":	"Chrome/86.0.4240.75 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_2"
+	}, {
+		"Tuple4":	"172.20.9.135.49347>64.233.165.93.443",
+		"VERSION":	"Google QUIC 50",
+		"SNI":	"www.youtube.com",
+		"UA":	"Chrome/86.0.4240.75 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_3"
+}]

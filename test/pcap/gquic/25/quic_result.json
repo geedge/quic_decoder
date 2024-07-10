@@ -1,0 +1,12 @@
+[{
+		"Tuple4":	"85.117.113.98.4340>74.125.131.95.443",
+		"VERSION":	"Google QUIC 25",
+		"SNI":	"www.googleapis.com",
+		"SNI":	"www.googleapis.com",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"90.143.184.225.63062>173.194.222.95.443",
+		"VERSION":	"Google QUIC 25",
+		"SNI":	"www.googleapis.com",
+		"name":	"QUIC_RESULT_2"
+}]

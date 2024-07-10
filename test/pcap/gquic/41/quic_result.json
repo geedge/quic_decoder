@@ -1,0 +1,15 @@
+[{
+		"Tuple4":	"90.143.180.56.28496>64.233.165.113.443",
+		"VERSION":	"Google QUIC 41",
+		"SNI":	"s.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/66.0.3335.4",
+		"SNI":	"s.youtube.com",
+		"UA":	"com.google.android.youtube Cronet/66.0.3335.4",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"90.143.189.30.53357>64.233.165.95.443",
+		"VERSION":	"Google QUIC 41",
+		"SNI":	"youtubei.googleapis.com",
+		"UA":	"com.google.android.youtube Cronet/66.0.3335.4",
+		"name":	"QUIC_RESULT_2"
+}]

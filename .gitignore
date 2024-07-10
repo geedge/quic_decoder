@@ -1,0 +1,14 @@
+Debug
+*.o
+*.d
+*.so
+.cproject
+.project
+.settings/
+SI
+build*/
+src/inc
+src/lib64
+cmake-build-*/
+.vscode/
+.cache/

@@ -1,0 +1,25 @@
+[{
+            "Tuple4":       "195.12.120.14.41803>173.194.222.101.443",
+            "SNI":  "clients4.google.com",
+            "UA":   "Chrome/87.0.4280.101 Android 9; ANE-LX1",
+            "VERSION":      "Google QUIC with TLS 51",
+            "name": "QUIC_RESULT_1"
+    }, {
+            "Tuple4":       "195.12.120.14.39526>64.233.165.113.443",
+            "SNI":  "m.youtube.com",
+            "UA":   "Chrome/87.0.4280.101 Android 9; ANE-LX1",
+            "VERSION":      "Google QUIC with TLS 51",
+            "name": "QUIC_RESULT_2"
+    }, {
+            "Tuple4":       "195.12.120.14.41747>173.194.222.138.443",
+            "SNI":  "clients4.google.com",
+            "UA":   "Chrome/87.0.4280.101 Android 9; ANE-LX1",
+            "VERSION":      "Google QUIC with TLS 51",
+            "name": "QUIC_RESULT_3"
+    }, {
+            "Tuple4":       "195.12.120.14.59012>173.194.222.138.443",
+            "SNI":  "clients4.google.com",
+            "UA":   "Chrome/87.0.4280.101 Android 9; ANE-LX1",
+            "VERSION":      "Google QUIC with TLS 51",
+            "name": "QUIC_RESULT_4"
+}]

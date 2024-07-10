@@ -1,0 +1,31 @@
+[{
+		"Tuple4":	"192.168.8.110.49832>172.217.18.150.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"i.ytimg.com",
+		"UA":	"Chrome/95.0.4638.54 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_1"
+	}, {
+		"Tuple4":	"192.168.8.110.50339>172.217.169.227.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"www.google.com.et",
+		"UA":	"Chrome/95.0.4638.54 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_2"
+	}, {
+		"Tuple4":	"192.168.8.110.52455>213.55.110.12.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"r1---sn-xuj-5qqz.googlevideo.com",
+		"UA":	"Chrome/95.0.4638.54 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_3"
+	}, {
+		"Tuple4":	"192.168.8.110.64550>142.250.185.36.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"www.google.com",
+		"UA":	"Chrome/95.0.4638.54 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_4"
+	}, {
+		"Tuple4":	"192.168.8.110.65140>213.55.110.13.443",
+		"VERSION":	"IETF QUIC RFC9000",
+		"SNI":	"r2---sn-xuj-5qqz.googlevideo.com",
+		"UA":	"Chrome/95.0.4638.54 Windows NT 10.0; Win64; x64",
+		"name":	"QUIC_RESULT_5"
+}]

@@ -1,0 +1,16 @@
+[
+	{
+		"Tuple4": "192.168.50.29.61891>31.13.77.35.443",
+		"VERSION": "IETF QUIC 29",
+		"SNI": "www.facebook.com",
+		"UA": "Chrome/86.0.4240.183 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_1"
+	},
+	{
+		"Tuple4": "192.168.50.33.57220>114.250.70.38.443",
+		"VERSION": "IETF QUIC 29",
+		"SNI": "securepubads.g.doubleclick.net",
+		"UA": "Chrome/90.0.4430.72 Windows NT 10.0; Win64; x64",
+		"name": "QUIC_RESULT_2"
+	}
+]
