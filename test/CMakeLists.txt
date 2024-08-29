@@ -9,12 +9,12 @@ add_library(${lib_name}_test_plug SHARED ${lib_name}_test_plug.cpp)
 target_link_libraries(${lib_name}_test_plug MESA_prof_load cjson)
 set_target_properties(${lib_name}_test_plug  PROPERTIES PREFIX "")
 
-add_test(NAME COPY_QUIC_SO COMMAND sh -c "mkdir -p ${PROTO_TEST_RUN_DIR}/stellar_plugin/${lib_name} && cp ${CMAKE_BINARY_DIR}/src/${lib_name}.so ${PROTO_TEST_RUN_DIR}/stellar_plugin/${lib_name}/${lib_name}.so")
-add_test(NAME COPY_TEST_SO COMMAND sh -c "mkdir -p ${PROTO_TEST_RUN_DIR}/stellar_plugin/${lib_name} && cp ${CMAKE_CURRENT_BINARY_DIR}/${lib_name}_test_plug.so ${PROTO_TEST_RUN_DIR}/stellar_plugin/${lib_name}/${lib_name}_test_plug.so")
+add_test(NAME COPY_QUIC_SO COMMAND sh -c "mkdir -p ${PROTO_TEST_RUN_DIR}/stellar_plugin/${lib_name} && cp ${CMAKE_BINARY_DIR}/src/${lib_name}.so ${PROTO_TEST_RUN_DIR}/stellar_plugin/${lib_name}.so")
+add_test(NAME COPY_TEST_SO COMMAND sh -c "mkdir -p ${PROTO_TEST_RUN_DIR}/stellar_plugin/${lib_name} && cp ${CMAKE_CURRENT_BINARY_DIR}/${lib_name}_test_plug.so ${PROTO_TEST_RUN_DIR}/stellar_plugin/${lib_name}_test_plug.so")
 add_test(NAME COPY_TEST_SPEC COMMAND sh -c "cp ${CMAKE_SOURCE_DIR}/bin/quic.inf ${PROTO_TEST_RUN_DIR}/stellar_plugin/spec.toml")
 add_test(NAME COPY_PLUGIN_TEST_MAIN COMMAND sh -c "rpm -ql sapp | grep plugin_test_main | xargs -i cp -f {} ${PROTO_TEST_RUN_DIR}/")
-add_test(NAME COPY_MAIN_CFG COMMAND sh -c "mkdir -p ${PROTO_TEST_RUN_DIR}/conf/quic_decoder && cp ${CMAKE_SOURCE_DIR}/bin/main.conf  ${PROTO_TEST_RUN_DIR}/conf/quic_decoder/")
-add_test(NAME COPY_QUIC_CFG COMMAND sh -c "mkdir -p ${PROTO_TEST_RUN_DIR}/conf/quic_decoder && cp ${CMAKE_SOURCE_DIR}/bin/quic.conf  ${PROTO_TEST_RUN_DIR}/conf/quic_decoder/")
+add_test(NAME COPY_MAIN_CFG COMMAND sh -c "mkdir -p ${PROTO_TEST_RUN_DIR}/conf/quic && cp ${CMAKE_SOURCE_DIR}/bin/main.conf  ${PROTO_TEST_RUN_DIR}/conf/quic/")
+add_test(NAME COPY_QUIC_CFG COMMAND sh -c "mkdir -p ${PROTO_TEST_RUN_DIR}/conf/quic && cp ${CMAKE_SOURCE_DIR}/bin/quic.conf  ${PROTO_TEST_RUN_DIR}/conf/quic/")
 add_test(NAME UPDATE_SAPP_LOG_LEVEL COMMAND bash -c "sed -i 's/sapp_log.fatal/sapp_log.info/' ${PROTO_TEST_RUN_DIR}/etc/sapp_log.conf")
 
 set_tests_properties(COPY_QUIC_SO COPY_TEST_SO COPY_TEST_SPEC COPY_PLUGIN_TEST_MAIN COPY_MAIN_CFG COPY_QUIC_CFG  UPDATE_SAPP_LOG_LEVEL

@@ -9,9 +9,9 @@
 #include "quic_deprotection.h"
 #include "quic_util.h"
 
-static const char *g_quic_proto_conffile="./conf/quic_decoder/main.conf";
+static const char *g_quic_proto_conffile="./conf/quic/main.conf";
 // static const char *g_quic_regionname_conffile="./conf/quic/quic.conf";
-static const char *g_quic_log_path = "./log/quic_decoder/quic_decoder";
+static const char *g_quic_log_path = "./log/quic/quic";
 #ifdef __cplusplus
 extern "C"
 {

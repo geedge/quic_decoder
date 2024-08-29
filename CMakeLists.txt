@@ -39,11 +39,11 @@ add_subdirectory(src)
 enable_testing()
 add_subdirectory(test)
 
-set(CPACK_RPM_USER_FILELIST "%config(noreplace) ${CMAKE_INSTALL_PREFIX}/sapp/conf/quic_decoder/quic.conf"
-							"%config(noreplace) ${CMAKE_INSTALL_PREFIX}/sapp/conf/quic_decoder/main.conf")
+set(CPACK_RPM_USER_FILELIST "%config(noreplace) ${CMAKE_INSTALL_PREFIX}/sapp/conf/quic/quic.conf"
+							"%config(noreplace) ${CMAKE_INSTALL_PREFIX}/sapp/conf/quic/main.conf")
 
-install(FILES bin/quic.conf DESTINATION ${CMAKE_INSTALL_PREFIX}/sapp/conf/quic_decoder COMPONENT PROFILE)
-install(FILES bin/main.conf DESTINATION ${CMAKE_INSTALL_PREFIX}/sapp/conf/quic_decoder COMPONENT PROFILE)
+install(FILES bin/quic.conf DESTINATION ${CMAKE_INSTALL_PREFIX}/sapp/conf/quic COMPONENT PROFILE)
+install(FILES bin/main.conf DESTINATION ${CMAKE_INSTALL_PREFIX}/sapp/conf/quic COMPONENT PROFILE)
 install(FILES include/quic_decoder.h DESTINATION ${CMAKE_INSTALL_PREFIX}/framework/include/quic_decoder COMPONENT HEADER)
 
 include(Package)

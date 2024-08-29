@@ -12,4 +12,4 @@ set_target_properties(${lib_name}  PROPERTIES PREFIX "")
 target_link_libraries(${lib_name} ${DNS_DEPEND_DYN_LIB} pthread -Wl,--no-whole-archive  openssl-crypto-static -Wl,--no-whole-archive  openssl-ssl-static)
 set_target_properties(${lib_name} PROPERTIES OUTPUT_NAME ${lib_name})
 
-install(TARGETS ${lib_name} LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/sapp/stellar_plugin/quic_decoder COMPONENT LIBRARIES)
+install(TARGETS ${lib_name} LIBRARY DESTINATION ${CMAKE_INSTALL_PREFIX}/sapp/stellar_plugin/ COMPONENT LIBRARIES)
